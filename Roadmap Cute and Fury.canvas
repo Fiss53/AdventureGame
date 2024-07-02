@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"5dab08ecbdd7e811","type":"text","text":"First Level","x":-560,"y":420,"width":250,"height":50,"color":"1"},
+		{"id":"83448ab8adb9ed7f","type":"text","text":"TileSet exterior","x":-560,"y":300,"width":250,"height":60,"color":"1"},
+		{"id":"05554b1bc2c190eb","type":"text","text":"ART","x":-560,"y":-54,"width":250,"height":60,"color":"2"},
+		{"id":"262f06393c02ba7f","type":"text","text":"RoadMap for the Adventure Game cute/gore","x":-260,"y":-280,"width":279,"height":66},
+		{"id":"653042d30a60234a","type":"text","text":"Weapons ","x":-709,"y":569,"width":250,"height":50,"color":"1"},
+		{"id":"ad86bfc1368593eb","type":"text","text":"Animations","x":-400,"y":564,"width":250,"height":60,"color":"1"},
+		{"id":"84342fb4b35354db","type":"text","text":"Marketing\n","x":-1200,"y":-54,"width":250,"height":60,"color":"1"},
+		{"id":"73c83bf6dd321273","type":"text","text":"Create instagram/twitter/reddit account for the game","x":-1200,"y":50,"width":250,"height":90,"color":"1"},
+		{"id":"de0bf56d39972be4","type":"text","text":"Programming","x":520,"y":-54,"width":250,"height":60,"color":"4"},
+		{"id":"6e0919bcf64f2731","type":"text","text":"Audio","x":19,"y":-54,"width":250,"height":60,"color":"3"},
+		{"id":"f0c41f84ec19dfb0","type":"text","text":"Find out about audio","x":19,"y":80,"width":250,"height":60,"color":"1"},
+		{"id":"53dc99bdb35cc1cd","type":"text","text":"Weekly post in it","x":-1200,"y":200,"width":250,"height":80,"color":"1"},
+		{"id":"76962a2068b68d57","x":520,"y":280,"width":250,"height":60,"color":"1","type":"text","text":"Create the files for the structure"},
+		{"id":"702d5c43317480c1","x":520,"y":110,"width":250,"height":60,"color":"1","type":"text","text":"What's the best structure for this type of game"},
+		{"id":"4edae3cfb398b367","x":960,"y":-54,"width":250,"height":60,"color":"5","type":"text","text":"Game Design\n"},
+		{"id":"7d78f8dab6bd7192","x":961,"y":120,"width":250,"height":60,"color":"1","type":"text","text":"GDD "},
+		{"id":"506f8d7eb260b860","type":"text","text":"Caracter spritesheet","x":-560,"y":180,"width":250,"height":60,"color":"1"},
+		{"id":"0b0780acb3668605","x":-880,"y":187,"width":250,"height":53,"type":"text","text":"Use IA ?"},
+		{"id":"7d729f5177facaf0","x":-560,"y":65,"width":250,"height":60,"color":"1","type":"text","text":"Character Deisgn / Mock Up"},
+		{"id":"0b7085f67f30feda","x":-865,"y":62,"width":265,"height":78,"type":"text","text":"https://www.youtube.com/watch?v=bUCx3WW8s3g"}
+	],
+	"edges":[
+		{"id":"8a16c70f256ff234","fromNode":"83448ab8adb9ed7f","fromSide":"bottom","toNode":"5dab08ecbdd7e811","toSide":"top"},
+		{"id":"641d8beaecd76e93","fromNode":"506f8d7eb260b860","fromSide":"bottom","toNode":"83448ab8adb9ed7f","toSide":"top"},
+		{"id":"85018eb91630a45a","fromNode":"5dab08ecbdd7e811","fromSide":"bottom","toNode":"ad86bfc1368593eb","toSide":"top"},
+		{"id":"a44a1d3e6ae7a56a","fromNode":"84342fb4b35354db","fromSide":"bottom","toNode":"73c83bf6dd321273","toSide":"top"},
+		{"id":"04d3127893ca5bfb","fromNode":"73c83bf6dd321273","fromSide":"bottom","toNode":"53dc99bdb35cc1cd","toSide":"top"},
+		{"id":"e63201a65d3b2103","fromNode":"5dab08ecbdd7e811","fromSide":"bottom","toNode":"653042d30a60234a","toSide":"top"},
+		{"id":"7972fb17a4c9727f","fromNode":"506f8d7eb260b860","fromSide":"left","toNode":"0b0780acb3668605","toSide":"right"},
+		{"id":"568c2a48d22f9684","fromNode":"de0bf56d39972be4","fromSide":"bottom","toNode":"702d5c43317480c1","toSide":"top"},
+		{"id":"8ea18adfc03d20e2","fromNode":"702d5c43317480c1","fromSide":"bottom","toNode":"76962a2068b68d57","toSide":"top"},
+		{"id":"481689164ab0f788","fromNode":"4edae3cfb398b367","fromSide":"bottom","toNode":"7d78f8dab6bd7192","toSide":"top"},
+		{"id":"f2fd3e89552ef254","fromNode":"05554b1bc2c190eb","fromSide":"bottom","toNode":"7d729f5177facaf0","toSide":"top"},
+		{"id":"79dcdc3592e710e7","fromNode":"7d729f5177facaf0","fromSide":"bottom","toNode":"506f8d7eb260b860","toSide":"top"},
+		{"id":"d745a53435a1d37b","fromNode":"7d729f5177facaf0","fromSide":"left","toNode":"0b7085f67f30feda","toSide":"right"}
+	]
+}
